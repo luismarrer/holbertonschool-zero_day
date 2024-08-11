@@ -67,6 +67,104 @@ $ git commit -m "Initial commit"
 $ git push origin main
 ```
 
+## Project Tasks
+
+### 0. Create and setup your Git and GitHub account
+**Score: 100.00%**
+
+**Steps:**
+1. Create a GitHub account.
+2. Generate a Personal Access Token on GitHub to authenticate your repositories.
+3. Update your Holberton School Intranet profile with your GitHub username.
+4. Create your first GitHub repository with the following details:
+    - **Name**: `holbertonschool-zero_day`
+    - **Description**: This is my first repository as a full-stack engineer
+    - **Public repo**, without README, .gitignore, or license.
+5. Open the sandbox environment and clone your repository.
+6. Create a `README.md` file with the content `My first readme`, commit with the message "My first commit", and push to the repository.
+
+**Repository**:
+- **GitHub repository**: `holbertonschool-zero_day`
+- **File**: `README.md`
+
+### 1. Repo-session
+**Score: 100.00%**
+
+- Create a new directory called `git` in your repository.
+- Ensure that both the root of your repository and the `git` directory contain a `README.md` file with content.
+- Commit and push your code to GitHub.
+
+**Repository**:
+- **GitHub repository**: `holbertonschool-zero_day`
+
+### 2. Coding fury road
+**Score: 100.00%**
+
+- Create directories: `bash`, `c`, `js` at the root of your project.
+- Create the following files:
+  - `c/c_is_fun.c`
+  - `js/main.js`
+  - `js/index.js`
+  - `bash/best` with content: `#!/bin/bash` and `echo "Best"`
+  - `bash/school` with content: `#!/bin/bash` and `echo "School"`
+- Add, commit with the message "Starting to code today, so cool", and push your changes.
+
+**Repository**:
+- **GitHub repository**: `holbertonschool-zero_day`
+- **Directory**: `git`
+- **Files**: `bash/best`, `bash/school`, `c/c_is_fun.c`, `js/main.js`, `js/index.js`
+
+### 3. Collaboration is the base of a company
+**Score: 100.00%**
+
+- Create a branch `update_script` and:
+  - Add an empty file named `bash/98`
+  - Update `bash/best` to `echo "Best School"`
+  - Update `bash/school` to `echo "The school is open!"`
+  - Commit with the message "My personal work" and push.
+- Change back to the `main` branch:
+  - Update `bash/best` to `echo "This School is so cool!"`
+  - Delete the `js` directory.
+  - Commit with the message "Hot fix" and push.
+
+**Repository**:
+- **GitHub repository**: `holbertonschool-zero_day`
+- **Directory**: `git`
+- **Files**: `bash/best`, `bash/school`, `bash/98`
+
+### 4. Collaboration: be up to date
+**Score: 100.00%**
+
+- Update your `README.md` file on GitHub from the web interface.
+- Pull the changes locally, create a new file `up_to_date` in the `git` directory, containing the Git command you used to pull the changes.
+- Commit with the message "How to be up to date in git" and push.
+
+**Repository**:
+- **GitHub repository**: `holbertonschool-zero_day`
+- **Directory**: `git`
+- **Files**: `README.md`, `up_to_date`
+
+### 5. HAAA what did you do???
+**Score: 100.00%**
+
+- Merge the `update_script` branch into `main`. Resolve the merge conflict in `bash/best` by keeping the version from `update_script`.
+- Push the changes to the origin.
+
+**Repository**:
+- **GitHub repository**: `holbertonschool-zero_day`
+- **Directory**: `git`
+
+### 6. Never push too much
+**Score: 100.00%**
+
+- Create a `.gitignore` file in the `git` directory.
+- Define a rule in `.gitignore` to prevent Emacs backup files (those ending with `~`) from being pushed to the repository.
+
+**Repository**:
+- **GitHub repository**: `holbertonschool-zero_day`
+- **Directory**: `git`
+- **File**: `.gitignore`
+
 ## Conclusion
 
 This project serves as a foundational introduction to Git and GitHub, which are essential tools for version control in software development. Mastery of these concepts will greatly enhance your ability to collaborate on projects and manage your code effectively.
